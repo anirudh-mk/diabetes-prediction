@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Diabetes Prediction</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="left">
+        <div class="image"></div>
+        <div class="info">
+          <h1>Diabetes Prediction</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptatum, quibusdam, quos, voluptate voluptas quia quae
+            exercitationem quod doloribus quas voluptatibus. Quisquam
+            voluptatum, quibusdam, quos, voluptate voluptas quia quae
+            exercitationem quod doloribus quas voluptatibus.
+          </p>
+        </div>
+      </div>
+      <div class="right">
+        <form action="predict">
+          <label for="">Name</label>
+          <input type="text" id="name" name="name" placeholder="&nbsp;" />
+
+          <label for="">Age</label>
+          <input type="text" id="age" name="age" placeholder="&nbsp;" />
+
+          <label for="">pregnancies</label>
+          <input type="text" id="pregnancies" name="pregnancies"/>
+
+          <label for="">Glucose</label>
+          <input type="text" id="glucose" name="glucose"/>
+
+          <label for="">Blood Pressure</label>
+          <input type="text" id="bloodPressure" name="bloodPressure" />
+
+          <label for="">Skin Thickness</label>
+          <input type="text" id="skinThickness" name="skinThickness" placeholder="&nbsp;"/>
+
+          <label for="">Insulin</label>
+          <input type="text" id="insulin" name="insulin" />
+
+          <label for="">BMI</label>
+          <input type="text" id="bmi" name="bmi" placeholder="&nbsp;" />
+
+          <label for="">dfp</label>
+          <input type="text" id="dpf" name="dpf" placeholder="&nbsp;" />
+          <input type="submit">
+          </form>
+        <div class="result">
+          <p>{{result}}</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
